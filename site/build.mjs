@@ -123,7 +123,7 @@ function layout({ title, desc, body, active = "", canonical = "/" }) {
 <header class="top"><div class="in"><a class="brand" href="/">${TITLE}</a>
 <nav><a href="/lai-thai-catalogue">ลายไทย</a><a href="/roofs">หลังคา</a><a href="/spires">เครื่องยอด</a><a href="/glossary">ศัพท์</a><a href="/for-ai">สำหรับ AI</a></nav></div></header>
 <div class="wrap"><aside>${sidebar(active)}</aside><main>${body}</main></div>
-<footer>${TITLE_EN} · ปรับปรุง ${today} · เนื้อหาเขียนจากแหล่งอ้างอิงใน <a href="/sources">แหล่งอ้างอิง</a> ข้อที่ยังไม่ยืนยันมีเครื่องหมาย (ควรตรวจ) · ภาพถ่ายของผู้อื่นไม่เผยแพร่ แผนภาพและภาพโมเดลเป็นงานของโครงการนี้</footer>
+<footer>${TITLE_EN} · ปรับปรุง ${today} · เนื้อหาเขียนจากแหล่งอ้างอิงใน <a href="/sources">แหล่งอ้างอิง</a> ข้อที่ยังไม่ยืนยันมีเครื่องหมาย (ควรตรวจ) · ภาพประกอบเป็นภาพจริงจาก Wikimedia Commons มีเครดิตทุกภาพ (<a href="/credits">ที่มาของภาพ</a>) · <a href="https://github.com/theparitt/thai-art-knowledge">GitHub</a></footer>
 </body></html>`);
 }
 
