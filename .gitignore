@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.wrangler/
+__pycache__/
+
+# Not free to publish: third-party reference photos sent by the owner, and our numbered notes drawn on them
+images/reference/
+images/annotated/
+
+# Full texts extracted from copyrighted papers and the raw Commons candidate downloads (rebuildable)
+research/*.txt
+research/candidates/
+research/_*

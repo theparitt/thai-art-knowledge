@@ -1,0 +1,20 @@
+{
+  "name": "thai-art-knowledge",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Thai art, Lai Thai and Thai architecture knowledge base for people and AI (GitHub Pages + Cloudflare Pages)",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "build": "node site/build.mjs",
+    "preview": "npm run build && npx serve dist",
+    "setup": "wrangler pages project create thai-art-knowledge --production-branch main",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name thai-art-knowledge --branch main --commit-dirty=true"
+  },
+  "dependencies": {
+    "marked": "^14.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
