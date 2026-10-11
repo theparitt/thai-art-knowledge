@@ -71,3 +71,5 @@ A Thai-language, source-cited reference on Thai traditional architecture (bases,
   - `site/pages.mjs` กำหนดลำดับหน้า slug และชื่ออังกฤษ (**เพิ่มไฟล์ md ใหม่ต้องลงชื่อในนี้ด้วย**)
   - `site/shots.sh` ถ่ายภาพหน้าเว็บไว้ตรวจ
 - **เผยแพร่:** `images/photos/` (ภาพ Commons มีเครดิตอัตโนมัติ) และ `images/renders/` (ภาพโมเดลของเรา ใช้เฉพาะในกรณีศึกษา ไม่ใช่ภาพอ้างอิง) ส่วนภาพที่ไม่มีสัญญาอนุญาตเสรีใน `images/reference/` และ `images/annotated/` จะแทนด้วยคำบรรยาย
+
+- [40 เครื่องมือสร้างชิ้นส่วนไทย: โครง ลาย วัสดุ และหลักฐาน](40_เครื่องมือสร้างชิ้นส่วนไทย_โครงลายและวัสดุ.md) — [scoped engine knowledge](ship-engine-knowledge.json)

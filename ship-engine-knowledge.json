@@ -1,0 +1,680 @@
+{
+  "schema_version": "1.0",
+  "pack_version": "2026-10-11",
+  "source_repository": "https://github.com/theparitt/thai-art-knowledge",
+  "source_scope": "Selected local unpublished units; source_basis distinct from digital_method_status. Full cited books not read.",
+  "design_context": {
+    "mode": "declared_adaptation",
+    "identity": "Thai Gothic fantasy airship components",
+    "reference": "User latest ORNAMENTS sheet",
+    "units": "metres",
+    "must_preserve": [
+      "canonical skull/banner identity",
+      "cited master aspect",
+      "declared roof/gable relationship",
+      "front reading and margins"
+    ],
+    "may_change": [
+      "component dimensions",
+      "repeat count",
+      "project stem arrangement",
+      "digital surface implementation"
+    ],
+    "unknown": [
+      "traditional workshop lineage",
+      "exact canonical ornament tracing",
+      "historic approval"
+    ]
+  },
+  "units": [
+    {
+      "id": "L01",
+      "domain": "ornament",
+      "title": "บทบาทของแม่ลายกระหนกสามตัว",
+      "source_basis": {
+        "claim": "แม่ลายที่อธิบายประกอบด้วยตัวเหงา กาบ และยอด",
+        "citations": [
+          {
+            "source_id": "S14",
+            "pdf_pages": [
+              8
+            ],
+            "url": "https://ssrudlp.ssru.ac.th/data-file/teacher_work/file/7de20649c481fd0a2871225aaffcf994.pdf#page=8",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "การคัดแบบ/ฝึกแม่ลายชนิดนี้",
+      "must_preserve": [
+        "ส่วนรับ",
+        "ส่วนประกบ/ส่ง",
+        "ส่วนยอด"
+      ],
+      "may_change": [
+        "บากและรายละเอียดภายในที่ไม่ลบโครง"
+      ],
+      "why": "โครงต้องอ่านได้ก่อนลายย่อย ไม่ใช่นับทั้งภาพว่ามีสามใบ",
+      "procedure_2d": [
+        "วางกรอบและแกน",
+        "แยกสามบทบาท",
+        "ใส่บากภายหลัง"
+      ],
+      "procedure_3d": [
+        "ทำแนวรอบนอกก่อนนูน",
+        "รักษาตำแหน่งบทบาทเมื่อเพิ่มความหนา"
+      ],
+      "observable_checks": [
+        "ชี้ตำแหน่งส่วนรับ/กาบ/ยอดได้",
+        "ดู silhouette ยังอ่านโครงได้"
+      ],
+      "failure_example": "เหลือเปลวเดี่ยวแต่ยังอ้างคัดแม่ลายสามตัว",
+      "repair": [
+        "ย้อนวางบทบาทแม่ลาย",
+        "ลดลายย่อยที่กลบโครง"
+      ],
+      "counterexample_or_exception": "ลายใหม่หรือเครือเถาที่รวมแม่ลายหลายชุดไม่ถูกบังคับให้มีสามใบทั้งหมด",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "L03",
+      "domain": "ornament",
+      "title": "ช่องไฟมีชนิดและระดับ",
+      "source_basis": {
+        "claim": "ตัวลายและช่องพื้นทำงานร่วมกัน",
+        "citations": [
+          {
+            "source_id": "S16",
+            "pdf_pages": [
+              12,
+              13,
+              14
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/fineartstujournal/article/download/261678/177186#page=12",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "งานลายที่เลือกให้รักษาจังหวะของต้นแบบ",
+      "must_preserve": [
+        "การอ่านตัวลาย",
+        "ช่องภายใน/ระหว่างหน่วย/ขอบกรอบ"
+      ],
+      "may_change": [
+        "จำนวนหน่วยและขนาดเมื่อจัดใหม่อย่างมีเหตุผล"
+      ],
+      "why": "การวัดทุกช่องให้เท่ากันทั้งภาพอาจทำลายลำดับหลัก–รอง",
+      "procedure_2d": [
+        "ตรวจขาวดำ",
+        "แยกชนิดช่อง",
+        "ดูขนาดใช้จริง"
+      ],
+      "procedure_3d": [
+        "ตรวจเงาและผิวด้านข้าง",
+        "ดูว่าความลึกปิดช่องพื้นหรือไม่"
+      ],
+      "observable_checks": [
+        "มีช่องที่ยังอ่านได้เมื่อย่อ",
+        "ความสม่ำเสมอประเมินในกลุ่มช่องที่เทียบกัน"
+      ],
+      "failure_example": "ลายนูนแน่นจนช่องพื้นของต้นแบบหาย",
+      "repair": [
+        "ลดระดับนูนหรือขนาดรายละเอียด",
+        "จัดช่องในกลุ่มเดียวกันใหม่"
+      ],
+      "counterexample_or_exception": "พื้นภาพเล่าเรื่องหรือสมดุลอสมมาตรไม่ต้องมีช่องทุกช่องเท่ากัน",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "L04",
+      "domain": "ornament",
+      "title": "หน่วยซ้ำและวิธีจบพื้นที่",
+      "source_basis": {
+        "claim": "ความซ้ำเป็นเครื่องมือจัดลายและมีข้อจำกัด",
+        "citations": [
+          {
+            "source_id": "S16",
+            "pdf_pages": [
+              10,
+              11,
+              15
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/fineartstujournal/article/download/261678/177186#page=10",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "ลายแถว/พื้นที่ตั้งใจใช้หน่วยซ้ำ",
+      "must_preserve": [
+        "ชนิดหน่วย",
+        "จังหวะและขอบเขตที่ประกาศ"
+      ],
+      "may_change": [
+        "จำนวนหน่วย",
+        "หน่วยจบมุมที่ออกแบบเพิ่ม"
+      ],
+      "why": "การตัดหรือยืดหน่วยเพื่อให้เต็มกรอบต้องตรวจทั้งระบบ",
+      "procedure_2d": [
+        "กำหนด repeat_pitch และขอบ",
+        "ทดลองจำนวนเต็ม/หน่วยจบ"
+      ],
+      "procedure_3d": [
+        "วางหน่วยตามผิวจริง",
+        "ตรวจมุมย่อและรอยต่อ UV"
+      ],
+      "observable_checks": [
+        "แยกหน่วยต้นแบบกับหน่วยจบ",
+        "ไม่มีการยืดหน่วยโดยไม่ตั้งใจ"
+      ],
+      "failure_example": "texture ยืดลายที่มุมจนชื่อแม่ลายเปลี่ยน",
+      "repair": [
+        "จัดหน่วยจบใหม่",
+        "แบ่งผิวและรักษาขนาดหน่วย"
+      ],
+      "counterexample_or_exception": "งานต่อเนื่องที่ไม่มีหน่วยซ้ำไม่อยู่ในกฎนี้",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "L05",
+      "domain": "ornament",
+      "title": "สมดุลไม่เท่ากับสะท้อนเสมอ",
+      "source_basis": {
+        "claim": "บทความแยกสมมาตรและอสมมาตร",
+        "citations": [
+          {
+            "source_id": "S16",
+            "pdf_pages": [
+              12,
+              18,
+              19
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/fineartstujournal/article/download/261678/177186#page=12",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "การเลือกความสมดุลของพื้นที่ลาย",
+      "must_preserve": [
+        "ระบบสมดุลที่โจทย์เลือก"
+      ],
+      "may_change": [
+        "วิธีจัดน้ำหนักเมื่อทำงานใหม่"
+      ],
+      "why": "ตำแหน่งไม่เหมือนกันไม่ใช่ข้อพิสูจน์ว่าเสียสมดุล",
+      "procedure_2d": [
+        "ระบุแกนเมื่อเลือกสะท้อน",
+        "ดูน้ำหนักรวมเมื่อเลือกอสมมาตร"
+      ],
+      "procedure_3d": [
+        "ตรวจมวลและเงาจากมุมที่เกี่ยวข้อง",
+        "แยก pose ที่ตั้งใจเอียง"
+      ],
+      "observable_checks": [
+        "ตัดสินตามระบบที่ประกาศ",
+        "ไม่วัดความเท่าพิกเซลแทนความสมดุลทั้งหมด"
+      ],
+      "failure_example": "ตัดสินภาพรำเอียงว่าผิดเพราะสองข้างไม่เหมือนกัน",
+      "repair": [
+        "เลือกวิธีตรวจตามเจตนา",
+        "เปรียบกับต้นแบบท่านั้น"
+      ],
+      "counterexample_or_exception": "สำเนาลายสะท้อนที่อ้างตรงต้องรักษาความสัมพันธ์สองข้างจริง",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "L06",
+      "domain": "ornament",
+      "title": "โครงลายกับรายละเอียดคนละระดับ",
+      "source_basis": {
+        "claim": "ใส่รายละเอียดภายหลังโครงและพื้นที่ลาย",
+        "citations": [
+          {
+            "source_id": "S16",
+            "pdf_pages": [
+              15,
+              16,
+              17,
+              18
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/fineartstujournal/article/download/261678/177186#page=15",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "งานประดับที่ต้องรักษาโครงหลัก",
+      "must_preserve": [
+        "กรอบ",
+        "โครงก้าน/ตัวลาย",
+        "พื้นที่ไส้ลายเมื่อใช้วัสดุฝัง"
+      ],
+      "may_change": [
+        "เส้นในและวัสดุที่ไม่กลบโครง"
+      ],
+      "why": "รายละเอียดไม่ใช่วิธีแก้โครงผิด",
+      "procedure_2d": [
+        "แยกโครงกับเส้นในเป็นชั้น",
+        "คุมจุดเกิดกาบและช่อ"
+      ],
+      "procedure_3d": [
+        "แยกร่อง/ลายเขียน/ลายนูน",
+        "เว้นช่องวัสดุฝังตามแบบ"
+      ],
+      "observable_checks": [
+        "ปิดชั้นรายละเอียดแล้วยังอ่านทรง",
+        "ไส้ลายไม่ถูกกลบด้วยรายละเอียดอื่น"
+      ],
+      "failure_example": "ใส่เม็ดประดับจนโครงกาบหาย",
+      "repair": [
+        "คืนพื้นที่ไส้/ช่องพื้น",
+        "แก้โครงก่อนเส้นย่อย"
+      ],
+      "counterexample_or_exception": "งานที่ตั้งใจใช้พื้นผิวเป็นตัวเริ่มรูปทรงให้ตรวจตามการทดลองที่ประกาศ",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "A01",
+      "domain": "architecture",
+      "title": "เลือกตระกูลโปรไฟล์ก่อนประกอบยอด",
+      "source_basis": {
+        "claim": "ต้นฉบับแยกทรงจอมแหกับทรงปรางค์",
+        "citations": [
+          {
+            "source_id": "S18",
+            "pdf_pages": [
+              23,
+              24,
+              25
+            ],
+            "url": "https://so04.tci-thaijo.org/index.php/NAJUA/article/download/47173/39081#page=23",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "งานที่เลือกจำลองยอดชนิดนั้น",
+      "must_preserve": [
+        "ลักษณะโปรไฟล์ของต้นแบบ"
+      ],
+      "may_change": [
+        "เส้นใหม่ภายในเจตนาที่ประกาศ"
+      ],
+      "why": "ส่วนประดับอาจกลบความผิดของมวลหลัก",
+      "procedure_2d": [
+        "เทียบ silhouette ของชนิดยอด",
+        "ระบุเส้นตั้งต้น"
+      ],
+      "procedure_3d": [
+        "ทำมวลสีเรียบ",
+        "ตรวจหน้า/ข้าง/เฉียง"
+      ],
+      "observable_checks": [
+        "ชนิดยอดตรงบัตร",
+        "สัน/ช่วงรวบสัมพันธ์ต้นแบบ"
+      ],
+      "failure_example": "บังคับปรางค์ทุกองค์ให้เว้าเหมือนยอดเครื่องไม้",
+      "repair": [
+        "เปลี่ยนตระกูลโปรไฟล์",
+        "กลับไปทำมวลก่อนลาย"
+      ],
+      "counterexample_or_exception": "ยอดผสมที่มีหลักฐานหรือออกแบบใหม่ต้องใช้บริบทของมัน",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "A02",
+      "domain": "architecture",
+      "title": "เส้นตั้งต้นกับเส้นรองสัมพันธ์กัน",
+      "source_basis": {
+        "claim": "เส้นรองอิงและส่งเส้นทรงตั้งต้น",
+        "citations": [
+          {
+            "source_id": "S18",
+            "pdf_pages": [
+              24,
+              25,
+              26
+            ],
+            "url": "https://so04.tci-thaijo.org/index.php/NAJUA/article/download/47173/39081#page=24",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "ยอดจอมแหตามแบบที่เลือก",
+      "must_preserve": [
+        "ความสัมพันธ์ของเส้นทรงกับองค์ประกอบ"
+      ],
+      "may_change": [
+        "รายละเอียดที่ไม่ข่มทรงตั้งต้น"
+      ],
+      "why": "คำว่าเส้นล้อกันไม่เท่ากับ offset คงที่ทุกตำแหน่ง",
+      "procedure_2d": [
+        "เก็บเส้นตั้งต้นและจุดอ้างอิง",
+        "ตรวจเส้นรองเทียบทรง"
+      ],
+      "procedure_3d": [
+        "ตรวจภาพฉายหลายด้าน",
+        "ดูส่วนประดับที่ออกนอกกรอบ"
+      ],
+      "observable_checks": [
+        "ระบุองค์ประกอบที่พ้นกรอบและเหตุผล",
+        "ไม่เรียกเส้นล้อว่า parallel ทางคณิตเสมอ"
+      ],
+      "failure_example": "ใช้ offset เดียวจนซุ้มอ้วนข่มยอด",
+      "repair": [
+        "แก้จังหวะของส่วนรอง",
+        "ทดสอบ silhouette รวม"
+      ],
+      "counterexample_or_exception": "กรอบเป็นเครื่องมือของแบบที่เลือก ไม่ห้ามส่วนยื่นที่ต้นแบบมี",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "S02",
+      "domain": "sculpture",
+      "title": "สีเขียน ร่อง นูน และวัสดุฝังแยกหน้าที่",
+      "source_basis": {
+        "claim": "เทคนิคและวัสดุส่งผลต่อรูปแบบการประดับ",
+        "citations": [
+          {
+            "source_id": "S16",
+            "pdf_pages": [
+              6,
+              7,
+              8,
+              17,
+              18
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/fineartstujournal/article/download/261678/177186#page=6",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "การถอดลายเป็น relief/วัตถุดิจิทัล",
+      "must_preserve": [
+        "หน้าที่ของเส้น/พื้น/ความลึกที่ต้นแบบใช้"
+      ],
+      "may_change": [
+        "วิธีสร้าง mesh/texture ที่ให้ผลตามเจตนา"
+      ],
+      "why": "extrude ทุกเส้นเท่ากันไม่ใช่การถอดแบบเสมอ",
+      "procedure_2d": [
+        "จำแนกเส้นเขียนกับขอบชิ้น",
+        "ทำชั้นรูปก่อนใส่แสง"
+      ],
+      "procedure_3d": [
+        "ระบุ painted/incised/raised/inlaid ต่อส่วน",
+        "ตรวจเงาและข้าง"
+      ],
+      "observable_checks": [
+        "ทุกระดับมีหน้าที่",
+        "ช่องไฟยังอ่านได้หลังนูน"
+      ],
+      "failure_example": "เส้นสีรอบตาถูกทำเป็นสันหนาจนหน้าเปลี่ยน",
+      "repair": [
+        "คืนเส้นเขียนเป็นผิวตามต้นแบบ",
+        "ลดระดับนูนที่กลบหน้า"
+      ],
+      "counterexample_or_exception": "งาน relief ใหม่ทำได้เมื่อระบุว่าจะรักษาโครงใด",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "S03",
+      "domain": "sculpture",
+      "title": "ส่วนยื่นต้องสอดคล้องวัสดุและสเกล",
+      "source_basis": {
+        "claim": "งานปั้นมีเงื่อนไขของความคงทนต่างจากภาพเขียน",
+        "citations": [
+          {
+            "source_id": "S16",
+            "pdf_pages": [
+              6,
+              7
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/fineartstujournal/article/download/261678/177186#page=6",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "งานที่ต้องผลิตหรือจำลองวัสดุจริง",
+      "must_preserve": [
+        "รูปทรงหลักและจังหวะที่เลือก"
+      ],
+      "may_change": [
+        "ความหนา/ส่วนค้ำที่ประกาศ"
+      ],
+      "why": "ปลายที่วาดได้ไม่จำเป็นต้องผลิตได้ในความหนาเดียวกัน",
+      "procedure_2d": [
+        "เก็บเส้นหลักก่อนลดบาก",
+        "ประเมินขนาดใช้จริง"
+      ],
+      "procedure_3d": [
+        "กำหนด min_feature ของโครงการ",
+        "แยกชิ้นยื่นกับชิ้นรองรับ"
+      ],
+      "observable_checks": [
+        "ค่าผลิตระบุแหล่งของโครงการ",
+        "ไม่ใช้ค่าไม้ชุดหนึ่งกับทุกวัสดุ"
+      ],
+      "failure_example": "ลดสเกลเท่ากันทั้งหมดจนปลายชิ้นผลิตไม่ได้",
+      "repair": [
+        "ปรับระดับรายละเอียด",
+        "บันทึกส่วนที่ขยาย/ลดเพื่อผลิต"
+      ],
+      "counterexample_or_exception": "งานดิจิทัลที่ไม่ผลิตไม่มีข้อจำกัดเครื่องตัดเดียวกัน",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "C01",
+      "domain": "adaptation",
+      "title": "รักษารากด้วยบันทึกการเปลี่ยน",
+      "source_basis": {
+        "claim": "งานสร้างสรรค์เปรียบต้นแบบกับผลที่ตีความใหม่",
+        "citations": [
+          {
+            "source_id": "S72",
+            "pdf_pages": [
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "url": "https://so05.tci-thaijo.org/index.php/ssajournal/article/download/273864/184538#page=4",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "declared_adaptation/งานร่วมสมัย",
+      "must_preserve": [
+        "สิ่งที่ประกาศว่าสืบทอดและอ้างกลับได้"
+      ],
+      "may_change": [
+        "รูปแบบ สื่อ พื้นผิว pose และองค์ประกอบที่ประกาศ"
+      ],
+      "why": "ชื่อแรงบันดาลใจอย่างเดียวไม่อธิบายว่าผลรักษาอะไร",
+      "procedure_2d": [
+        "ทำภาพเทียบต้นแบบ–ผล",
+        "เขียนรายการ preserved/changed"
+      ],
+      "procedure_3d": [
+        "เก็บแบบก่อน/หลังเปลี่ยน",
+        "ตรวจมวลและส่วนที่ตั้งใจรักษา"
+      ],
+      "observable_checks": [
+        "มี transformation record",
+        "ไม่อ้างผลใหม่เป็นหลักฐานโบราณ"
+      ],
+      "failure_example": "ใช้กนกหนึ่งตัวแล้วเรียกทุกส่วนว่าแบบจารีตตรง",
+      "repair": [
+        "ระบุแรงบันดาลใจเฉพาะส่วน",
+        "เปลี่ยนชื่อข้ออ้างให้ตรงผล"
+      ],
+      "counterexample_or_exception": "งานนามธรรมไม่จำเป็นต้องมี silhouette สัตว์ตามชื่อเดิมทุกตัว",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    },
+    {
+      "id": "C02",
+      "domain": "adaptation",
+      "title": "ต้นแบบวิเคราะห์มีขอบเขต",
+      "source_basis": {
+        "claim": "ผู้วิจัยเสนอหลักเพื่อเรียนรู้และพัฒนา ไม่ใช่สูตรตายตัวทุกงาน",
+        "citations": [
+          {
+            "source_id": "S18",
+            "pdf_pages": [
+              14,
+              50,
+              51
+            ],
+            "url": "https://so04.tci-thaijo.org/index.php/NAJUA/article/download/47173/39081#page=14",
+            "role": "source_basis"
+          }
+        ]
+      },
+      "digital_method_status": "editorial_synthesis_not_a_historical_formula",
+      "applies_when": "การใช้คลังนี้สร้างงานใหม่",
+      "must_preserve": [
+        "เหตุผลและส่วนที่อ้างว่าสืบทอด"
+      ],
+      "may_change": [
+        "วิธีออกแบบเมื่ออธิบายได้"
+      ],
+      "why": "การคัดตัวเลขโดยไม่เข้าใจหน้าที่อาจคงแต่ผิวแบบ",
+      "procedure_2d": [
+        "เลือกหลักที่เกี่ยวกับโจทย์",
+        "ทดลองแบบใหม่และตรวจสิ่งที่รักษา"
+      ],
+      "procedure_3d": [
+        "เปรียบผลการรับรู้หลายมุม",
+        "บันทึกที่มาและข้อจำกัด"
+      ],
+      "observable_checks": [
+        "ทุกการเปลี่ยนมีเหตุผล",
+        "ไม่เฉลี่ยคะแนนสวยชดเชยชื่อผิด"
+      ],
+      "failure_example": "ใช้ค่าครูแบบเดียวกับทุกวัตถุ",
+      "repair": [
+        "เลือกกฎตามชนิดงาน",
+        "ตรวจ relation แทนภาพจำ"
+      ],
+      "counterexample_or_exception": "งานจำลองตรงต้องรักษาหลักฐานของต้นแบบมากกว่างานประยุกต์",
+      "automatable_part": null,
+      "review_states": [
+        "supported",
+        "revise",
+        "declared_adaptation",
+        "insufficient_evidence",
+        "expert_review",
+        "not_applicable"
+      ]
+    }
+  ],
+  "additional_sources": [
+    {
+      "id": "TSA-SACIT-3025",
+      "url": "https://archive.sacit.or.th/handicraft/3025",
+      "title": "กล่องลายดอกแก้ว",
+      "authority": "SACIT craft catalogue",
+      "read_scope": "Catalogue text, material list and process; no associated book/PDF read",
+      "observation": "Lacquer substrate, gold leaf pattern and negative spaces are distinct; line sizes vary in this documented example.",
+      "digital_inference": "Separate dielectric lacquer from metallic gold leaf. Numeric PBR values and geometry depths are authored project parameters.",
+      "retrieved": "2026-10-11"
+    }
+  ],
+  "review_states": [
+    "supported",
+    "revise",
+    "declared_adaptation",
+    "insufficient_evidence",
+    "expert_review",
+    "not_applicable"
+  ]
+}

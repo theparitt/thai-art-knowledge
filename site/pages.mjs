@@ -1,5 +1,6 @@
 // Page order, URL slugs and English titles for the knowledge site. `file` is the Markdown source at the repo root.
 export const PAGES = [
+  { file: "40_เครื่องมือสร้างชิ้นส่วนไทย_โครงลายและวัสดุ.md", slug: "ship-component-engines", en: "Reusable Thai component engines: structure, ornament, material and evidence", group: "making" },
   { file: "00_ปรัชญาและคติ.md", slug: "philosophy", en: "Philosophy & cosmology: form before ornament, chom hae curve, Traiphum, rank", group: "foundations" },
   { file: "01_ภาพรวม_โครงสร้าง.md", slug: "overview", en: "Overview: base–body–roof–spire, wat zoning, building types, design order", group: "foundations" },
   { file: "15_กฎการออกแบบและข้อผิดพลาด.md", slug: "design-rules", en: "Design rules & checklist (verified corrections)", group: "foundations" },

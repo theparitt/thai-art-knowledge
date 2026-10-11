@@ -218,3 +218,7 @@ fs.writeFileSync(path.join(DIST, "sitemap.xml"), `<?xml version="1.0" encoding="
   ["/", "/for-ai", "/credits", ...pages.map((p) => `/${p.slug}`)].map((u) => `<url><loc>${SITE}${u}</loc><lastmod>${today}</lastmod></url>`).join("\n") + "\n</urlset>\n");
 fs.writeFileSync(path.join(DIST, "_headers"), "/*.md\n  Content-Type: text/markdown; charset=utf-8\n/llms*.txt\n  Content-Type: text/plain; charset=utf-8\n/*.json\n  Access-Control-Allow-Origin: *\n");
 console.log(`built ${pages.length} pages, ${gl.length} glossary terms -> dist/`);
+
+// Publish the standalone scoped component pack; do not require unpublished chapters.
+const componentPack = JSON.parse(fs.readFileSync(path.join(ROOT, "ship-engine-knowledge.json"), "utf8"));
+fs.writeFileSync(path.join(DIST, "ship-engine-knowledge.json"), JSON.stringify(componentPack, null, 2));
